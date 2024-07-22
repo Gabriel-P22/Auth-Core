@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      database: auth_core
+  application:
+    name: bank auth core
+
+server:
+  port: 8082
+
