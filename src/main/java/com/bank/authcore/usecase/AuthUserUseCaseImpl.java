@@ -53,7 +53,6 @@ public class AuthUserUseCaseImpl implements AuthUserUseCase {
                             AccountAdapter.INSTANCE.convertToModel(payload)
                     )
             );
-
         } else {
             return null;
         }
